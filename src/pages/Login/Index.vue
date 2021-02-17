@@ -11,14 +11,20 @@
 
 <template>
   <div class="container">
-    <router-view></router-view>
+     <HelloWorld :msg="msg" />
   </div>
 </template>
 
 <script>
+import HelloWorld from '@/components/HelloWorld'
 export default {
   data () {
-    return {}
+    return {
+      msg: 'CHORES'
+    }
+  },
+  components: {
+    HelloWorld
   }
 }
 </script>

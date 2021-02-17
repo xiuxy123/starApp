@@ -95,7 +95,7 @@ export default {
           console.log(result)
           setTimeout(() => {
             //  跳转主页
-            //  this.$router.push()
+            this.$router.push('home')
           }, 1000)
         }
       } catch (err) {

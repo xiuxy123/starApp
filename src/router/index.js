@@ -6,7 +6,7 @@ Vue.use(Router)
 
 let routes = [
   {
-    path: '',
+    path: '/',
     component: resolve => require(['@/pages/Login/Index'], resolve),
     children: [].concat(loginChilds),
     meta: {
